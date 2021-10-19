@@ -1,0 +1,97 @@
+*{
+	margin:0;
+}
+html{
+	background-color: grey;	
+}
+body{
+	margin-left:15%;
+	margin-right: 15%;
+}
+header{
+	background-image: url("logo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.central{
+	background-color: yellow;
+	overflow: hidden;
+	font-size:0.7em;
+}
+.columnaIzq{
+	background-color:yellow;
+	width: 30%;
+	padding-left:1em;
+	padding-right: 1em;
+	padding-top: 1em;
+}
+.columnaIzq h2{
+	
+	padding-top: 0.5em;
+	padding-bottom: 00.5em;
+}
+.menuvertical{
+	border:1px solid black;
+	width: 50%;
+	list-style: none;
+	background-color: white;
+
+}
+.menuvertical li{
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+
+}
+.columnaDcha{
+	background-color:#fffebb;
+	width: 70%;
+	float: right;
+}
+.columnaDcha h2{
+	background-color: white;
+}
+.columnaDcha h2, .columnaIzq h2{
+	color:darkmagenta;
+	font-size:1.2em;	
+}
+img{
+	float:right;
+	width: 50%;
+	padding: 1em;
+}
+.articulo{
+	padding-left: 1em;
+	overflow: hidden;
+}
+.parrafosierra{
+	padding-top: 1em;
+}
+.parrafoinfo{
+	padding-bottom: 2em;
+}
+footer{
+	background-color: green;
+	font-size: 0.6em;
+	color:white;
+	padding-right:1em;
+	padding-bottom: 4em;
+	padding-top:2em;	
+}
+footer ul{
+	width: 50%;
+	display: inline-block;
+}
+footer li{
+	display: inline-block;
+}
+footer span{
+	float: right;
+	padding-left:2em;
+}
+
+
